@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pantalla {
+  @apply bg-gray-900 border border-white flex rounded-full h-16 px-6 mt-5 text-white items-center justify-end text-2xl text-center
+}

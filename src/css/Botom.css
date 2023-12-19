@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boton-contenedor {
+  @apply my-4 px-4 py-3 gap-x-2 border border-white hover:bg-gray-950 font-bold text-center rounded text-white bg-gray-800
+}
+
+.opeador {
+  @apply my-4 px-4 py-3 gap-x-2 border border-white hover:bg-red-800 font-bold text-center rounded text-white bg-red-950
+}
